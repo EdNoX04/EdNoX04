@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Nilabha Mukherjee — Security · IoT · Applied AI" src="./assets/hero.svg" width="100%">
+  <a href="https://nilabha.dev"><img alt="Nilabha Mukherjee — Security · IoT · Applied AI" src="./assets/hero.svg" width="100%"></a>
 </div>
 
 <div align="center">
