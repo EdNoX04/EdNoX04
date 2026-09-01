@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 170" width="300" height="170" role="img" aria-label="WEBSITE: nilabha.dev">
+  <title>WEBSITE — nilabha.dev</title>
+  <defs>
+    <linearGradient id="p2" gradientUnits="userSpaceOnUse" x1="-600" y1="0" x2="-120" y2="170">
+      <stop offset="0%" stop-color="#13211e"/>
+      <stop offset="100%" stop-color="#0c1316"/>
+    </linearGradient>
+    <clipPath id="c2"><path d="M0,0 H300 V170 H0 Z"/></clipPath>
+  </defs>
+  <style>
+    .f { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    .lb { font-size: 13px; font-weight: 600; letter-spacing: 2.6px; fill: #4d6f67; }
+    .vl { font-size: 17px; font-weight: 500; fill: #2dd4bf; }
+  </style>
+  <path d="M0,0 H300 V170 H0 Z" fill="url(#p2)"/>
+  <path d="M0,0.5 H300 M0,169.5 H300" fill="none" stroke="#1c3b35" stroke-width="1"/>
+  <g clip-path="url(#c2)">
+    <text class="f lb" x="150" y="66" text-anchor="middle">WEBSITE</text>
+    <text class="f vl" x="150" y="100" text-anchor="middle">nilabha.dev</text>
+    <rect x="65" y="164" width="170" height="4" rx="2" fill="#2dd4bf"/>
+  </g>
+</svg>

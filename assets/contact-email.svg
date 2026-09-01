@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 170" width="300" height="170" role="img" aria-label="EMAIL: ednox042004@gmail.com">
+  <title>EMAIL — ednox042004@gmail.com</title>
+  <defs>
+    <linearGradient id="p0" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="480" y2="170">
+      <stop offset="0%" stop-color="#13211e"/>
+      <stop offset="100%" stop-color="#0c1316"/>
+    </linearGradient>
+    <clipPath id="c0"><path d="M300,0 H20 A20,20 0 0 0 0,20 V150 A20,20 0 0 0 20,170 H300 Z"/></clipPath>
+  </defs>
+  <style>
+    .f { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    .lb { font-size: 13px; font-weight: 600; letter-spacing: 2.6px; fill: #4d6f67; }
+    .vl { font-size: 16px; font-weight: 500; fill: #34d399; }
+  </style>
+  <path d="M300,0 H20 A20,20 0 0 0 0,20 V150 A20,20 0 0 0 20,170 H300 Z" fill="url(#p0)"/>
+  <path d="M300,0.5 H20 A19.5,19.5 0 0 0 0.5,20 V150 A19.5,19.5 0 0 0 20,169.5 H300" fill="none" stroke="#1c3b35" stroke-width="1"/>
+  <g clip-path="url(#c0)">
+    <text class="f lb" x="150" y="66" text-anchor="middle">EMAIL</text>
+    <text class="f vl" x="150" y="100" text-anchor="middle">ednox042004@gmail.com</text>
+    <rect x="65" y="164" width="170" height="4" rx="2" fill="#34d399"/>
+  </g>
+</svg>
