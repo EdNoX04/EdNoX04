@@ -210,8 +210,7 @@ const dash = (CIRC * pct) / 100;
 let body = '';
 rows.forEach(([icon, label, value, col], i) => {
   const y = 104 + i * 31;
-  const delay = (0.1 + i * 0.06).toFixed(2);
-  body += `    <g class="an" style="animation-delay:${delay}s">
+  body += `    <g class="an">
       <g transform="translate(48 ${y - 12})" stroke="${col}" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.85">${extra[icon] || ''}<path d="${ICON[icon]}"${icon === 'star' ? ` fill="${col}" fill-opacity="0.18"` : ''}/></g>
       <text class="f lb" x="80" y="${y}">${label}</text>
       <text class="f vl" x="800" y="${y}" text-anchor="end" fill="${col}">${value}</text>
@@ -237,11 +236,11 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" widt
     .vl { font-size: 16px; font-weight: 600; }
     .rp { font-size: 34px; font-weight: 700; fill: #eafff8; }
     .rl { font-size: 11px; font-weight: 600; letter-spacing: 2.2px; fill: #4d6f67; }
-    .an { opacity: 0; animation: rise .8s cubic-bezier(.16,1,.3,1) forwards; }
-    @keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
-    .arc { stroke-dasharray: ${dash.toFixed(1)} ${CIRC.toFixed(1)}; animation: draw 1.3s cubic-bezier(.16,1,.3,1) .3s backwards; }
+    .an { animation: rise .8s cubic-bezier(.16,1,.3,1); }
+    @keyframes rise { from { opacity: 0; transform: translateY(8px); } }
+    .arc { stroke-dasharray: ${dash.toFixed(1)} ${CIRC.toFixed(1)}; animation: draw 1.3s cubic-bezier(.16,1,.3,1); }
     @keyframes draw { from { stroke-dasharray: 0 ${CIRC.toFixed(1)}; } }
-    @media (prefers-reduced-motion: reduce) { .an { animation: none; opacity: 1; } .arc { animation: none; } }
+    @media (prefers-reduced-motion: reduce) { .an { animation: none; } .arc { animation: none; } }
   </style>
 
   <rect x="1" y="1" width="1198" height="338" rx="20" fill="url(#s-card)" stroke="#1c3b35" stroke-width="1"/>
