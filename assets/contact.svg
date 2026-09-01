@@ -19,22 +19,22 @@
   <g clip-path="url(#cc)">
     <g class="an" style="animation-delay: 0.05s">
       <text class="f lb" x="150" y="66" text-anchor="middle">EMAIL</text>
-      <text class="f vl" x="150" y="100" text-anchor="middle" fill="#34d399">ednox042004@gmail.com</text>
+      <text class="f vl" x="150" y="100" text-anchor="middle" font-size="16" fill="#34d399">ednox042004@gmail.com</text>
       <rect x="65" y="164" width="170" height="4" rx="2" fill="#34d399"/>
     </g>
     <g class="an" style="animation-delay: 0.14s">
       <text class="f lb" x="450" y="66" text-anchor="middle">LINKEDIN</text>
-      <text class="f vl" x="450" y="100" text-anchor="middle" fill="#38bdf8">/in/YOUR-HANDLE</text>
+      <text class="f vl" x="450" y="100" text-anchor="middle" font-size="13" fill="#38bdf8">/in/nilabha-mukherjee-81899427b</text>
       <rect x="365" y="164" width="170" height="4" rx="2" fill="#38bdf8"/>
     </g>
     <g class="an" style="animation-delay: 0.23s">
       <text class="f lb" x="750" y="66" text-anchor="middle">WEBSITE</text>
-      <text class="f vl" x="750" y="100" text-anchor="middle" fill="#2dd4bf">nilabha.dev</text>
+      <text class="f vl" x="750" y="100" text-anchor="middle" font-size="17" fill="#2dd4bf">nilabha.dev</text>
       <rect x="665" y="164" width="170" height="4" rx="2" fill="#2dd4bf"/>
     </g>
     <g class="an" style="animation-delay: 0.32s">
       <text class="f lb" x="1050" y="66" text-anchor="middle">EDUCATION</text>
-      <text class="f vl" x="1050" y="100" text-anchor="middle" fill="#22d3ee">Amity University</text>
+      <text class="f vl" x="1050" y="100" text-anchor="middle" font-size="16" fill="#22d3ee">Amity University</text>
       <rect x="965" y="164" width="170" height="4" rx="2" fill="#22d3ee"/>
     </g>
   </g>
