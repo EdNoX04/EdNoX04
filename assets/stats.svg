@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="GitHub statistics for EdNoX04">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="GitHub statistics for EdNoX04">
   <title>GitHub statistics</title>
   <defs>
     <linearGradient id="s-card" x1="0" y1="0" x2="0.5" y2="1">
@@ -24,41 +24,46 @@
     @media (prefers-reduced-motion: reduce) { .an { animation: none; opacity: 1; } .arc { animation: none; } }
   </style>
 
-  <rect x="1" y="1" width="1198" height="298" rx="20" fill="url(#s-card)" stroke="#1c3b35" stroke-width="1"/>
+  <rect x="1" y="1" width="1198" height="338" rx="20" fill="url(#s-card)" stroke="#1c3b35" stroke-width="1"/>
   <text class="f hd" x="48" y="56">STATS</text>
 
-    <g class="an" style="animation-delay:0.10s" color="#34d399">
+    <g class="an" style="animation-delay:0.10s">
       <g transform="translate(48 92)" stroke="#34d399" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"><path d="M8 1.6l1.9 3.9 4.3.6-3.1 3 .7 4.3L8 11.4l-3.8 2 .7-4.3-3.1-3 4.3-.6z" fill="#34d399" fill-opacity="0.18"/></g>
       <text class="f lb" x="80" y="104">Total Stars Earned</text>
       <text class="f vl" x="800" y="104" text-anchor="end" fill="#34d399">0</text>
     </g>
-    <g class="an" style="animation-delay:0.17s" color="#2dd4bf">
+    <g class="an" style="animation-delay:0.16s">
       <g transform="translate(48 123)" stroke="#2dd4bf" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"><circle cx="8" cy="8" r="3.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M1 8h3.6M11.4 8H15"/></g>
       <text class="f lb" x="80" y="135">Total Commits (2026)</text>
       <text class="f vl" x="800" y="135" text-anchor="end" fill="#2dd4bf">256</text>
     </g>
-    <g class="an" style="animation-delay:0.24s" color="#22d3ee">
+    <g class="an" style="animation-delay:0.22s">
       <g transform="translate(48 154)" stroke="#22d3ee" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"><circle cx="4" cy="3.6" r="1.9" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="4" cy="12.4" r="1.9" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="9.4" r="1.9" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M4 5.5v7M12 3.5v3.2a2 2 0 0 1-2 2H6"/></g>
       <text class="f lb" x="80" y="166">Pull Requests</text>
       <text class="f vl" x="800" y="166" text-anchor="end" fill="#22d3ee">0</text>
     </g>
-    <g class="an" style="animation-delay:0.31s" color="#38bdf8">
+    <g class="an" style="animation-delay:0.28s">
       <g transform="translate(48 185)" stroke="#38bdf8" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 8h.01"/></g>
       <text class="f lb" x="80" y="197">Issues Opened</text>
       <text class="f vl" x="800" y="197" text-anchor="end" fill="#38bdf8">0</text>
     </g>
-    <g class="an" style="animation-delay:0.38s" color="#5eead4">
-      <g transform="translate(48 216)" stroke="#5eead4" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"><path d="M3.5 2.5h9v11h-9zM6 2.5v11"/></g>
-      <text class="f lb" x="80" y="228">Public Repositories</text>
-      <text class="f vl" x="800" y="228" text-anchor="end" fill="#5eead4">9</text>
+    <g class="an" style="animation-delay:0.34s">
+      <g transform="translate(48 216)" stroke="#5eead4" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 4.2V8l2.4 1.6"/></g>
+      <text class="f lb" x="80" y="228">Estimated Coding Hours</text>
+      <text class="f vl" x="800" y="228" text-anchor="end" fill="#5eead4">2.9h</text>
     </g>
-    <g class="an" style="animation-delay:0.45s" color="#34d399">
-      <g transform="translate(48 247)" stroke="#34d399" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"><path d="M3.4 13.6a4.6 4.6 0 0 1 9.2 0M8 7.4a2.7 2.7 0 1 0 0-5.4 2.7 2.7 0 0 0 0 5.4"/></g>
-      <text class="f lb" x="80" y="259">Followers</text>
-      <text class="f vl" x="800" y="259" text-anchor="end" fill="#34d399">0</text>
+    <g class="an" style="animation-delay:0.40s">
+      <g transform="translate(48 247)" stroke="#34d399" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"><path d="M8 14.4c2.3 0 4-1.5 4-3.7 0-2.4-1.7-3.5-2.6-5.5-.4-.9-.5-1.8-.4-2.6-1.6.7-2.7 2-3.2 3.3-.4 1-.3 2-.1 2.7-.7-.2-1.1-.9-1.3-1.6-.6.8-.9 1.9-.9 2.9 0 2.5 1.9 4.5 4.5 4.5z"/></g>
+      <text class="f lb" x="80" y="259">Current Streak</text>
+      <text class="f vl" x="800" y="259" text-anchor="end" fill="#34d399">4 days</text>
+    </g>
+    <g class="an" style="animation-delay:0.46s">
+      <g transform="translate(48 278)" stroke="#2dd4bf" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"><rect x="2" y="3.4" width="12" height="10.6" rx="1.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M3 6.2h10M5.6 2.4v2.4M10.4 2.4v2.4"/></g>
+      <text class="f lb" x="80" y="290">Commits This Week</text>
+      <text class="f vl" x="800" y="290" text-anchor="end" fill="#2dd4bf">50</text>
     </g>
 
-  <g transform="translate(1012 158)">
+  <g transform="translate(1012 197)">
     <circle r="66" fill="none" stroke="#1c3b35" stroke-width="9"/>
     <circle class="arc" r="66" fill="none" stroke="url(#s-ring)" stroke-width="9"
             stroke-linecap="round" transform="rotate(-90)"/>
