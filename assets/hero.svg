@@ -32,10 +32,8 @@
     .nm { font-size: 54px; font-weight: 700; letter-spacing: -1.2px; fill: #eafff8; }
     .tg { font-size: 16px; font-weight: 500; letter-spacing: 3.4px; fill: #5eead4; }
     .ch { font-size: 15px; font-weight: 600; letter-spacing: 1.7px; }
-    .an { opacity: 0; animation: rise .85s cubic-bezier(.16,1,.3,1) forwards; }
-    .d1 { animation-delay: .05s; } .d2 { animation-delay: .16s; }
-    .d3 { animation-delay: .27s; } .d4 { animation-delay: .38s; }
-    @keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+    .an { animation: rise .8s cubic-bezier(.16,1,.3,1); }
+    @keyframes rise { from { opacity: 0; transform: translateY(10px); } }
     .swp { animation: sweep 5.5s ease-in-out infinite; }
     @keyframes sweep {
       0%   { transform: translateX(-420px); }
@@ -43,7 +41,7 @@
       100% { transform: translateX(1240px); }
     }
     @media (prefers-reduced-motion: reduce) {
-      .an { animation: none; opacity: 1; }
+      .an { animation: none; }
       .swp { animation: none; opacity: 0; }
     }
   </style>

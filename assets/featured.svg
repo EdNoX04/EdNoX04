@@ -17,11 +17,9 @@
     .ti { font-size: 40px; font-weight: 700; letter-spacing: -0.8px; fill: #eafff8; }
     .ro { font-size: 13px; font-weight: 600; letter-spacing: 2.6px; fill: #5eead4; }
     .de { font-size: 15px; font-weight: 400; fill: #9fbdb5; }
-    .an { opacity: 0; animation: rise .85s cubic-bezier(.16,1,.3,1) forwards; }
-    .a1 { animation-delay: .06s; } .a2 { animation-delay: .16s; }
-    .a3 { animation-delay: .26s; } .a4 { animation-delay: .34s; }
-    @keyframes rise { from { opacity: 0; transform: translateY(9px); } to { opacity: 1; transform: none; } }
-    @media (prefers-reduced-motion: reduce) { .an { animation: none; opacity: 1; } }
+    .an { animation: rise .8s cubic-bezier(.16,1,.3,1); }
+    @keyframes rise { from { opacity: 0; transform: translateY(9px); } }
+    @media (prefers-reduced-motion: reduce) { .an { animation: none; } }
   </style>
 
   <rect x="1" y="1" width="1198" height="206" rx="20" fill="url(#f-card)" stroke="#1c3b35" stroke-width="1"/>
