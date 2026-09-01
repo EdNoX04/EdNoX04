@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-  <img alt="Featured project: Skopia AI — Creator and Lead Developer" src="./assets/featured.svg" width="100%">
+  <a href="https://skopiaai.com"><img alt="Featured project: Skopia AI — Creator and Lead Developer" src="./assets/featured.svg" width="100%"></a>
 </div>
 
 <!-- Four panels, no whitespace between them, so they read as one continuous bar. -->
