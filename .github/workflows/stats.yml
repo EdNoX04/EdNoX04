@@ -29,7 +29,11 @@ jobs:
 
       - name: Generate assets/stats.svg
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # STATS_TOKEN (a personal access token with read:user) sees all your
+          # contributions across every repo. Without it, the default GITHUB_TOKEN
+          # can only see contributions inside THIS repo, so commit/PR/issue counts
+          # come out far too low. Add the secret and these numbers become correct.
+          GITHUB_TOKEN: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
           STATS_USER: ${{ github.repository_owner }}
         run: node scripts/gen-stats.mjs
 
