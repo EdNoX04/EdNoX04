@@ -19,7 +19,7 @@
     .rl { font-size: 11px; font-weight: 600; letter-spacing: 2.2px; fill: #4d6f67; }
     .an { animation: rise .8s cubic-bezier(.16,1,.3,1); }
     @keyframes rise { from { opacity: 0; transform: translateY(8px); } }
-    .arc { stroke-dasharray: 74.6 414.7; animation: draw 1.3s cubic-bezier(.16,1,.3,1); }
+    .arc { stroke-dasharray: 70.5 414.7; animation: draw 1.3s cubic-bezier(.16,1,.3,1); }
     @keyframes draw { from { stroke-dasharray: 0 414.7; } }
     @media (prefers-reduced-motion: reduce) { .an { animation: none; } .arc { animation: none; } }
   </style>
@@ -55,7 +55,7 @@
     <g class="an">
       <g transform="translate(48 247)" stroke="#34d399" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"><path d="M8 14.4c2.3 0 4-1.5 4-3.7 0-2.4-1.7-3.5-2.6-5.5-.4-.9-.5-1.8-.4-2.6-1.6.7-2.7 2-3.2 3.3-.4 1-.3 2-.1 2.7-.7-.2-1.1-.9-1.3-1.6-.6.8-.9 1.9-.9 2.9 0 2.5 1.9 4.5 4.5 4.5z"/></g>
       <text class="f lb" x="80" y="259">Current Streak</text>
-      <text class="f vl" x="800" y="259" text-anchor="end" fill="#34d399">4 days</text>
+      <text class="f vl" x="800" y="259" text-anchor="end" fill="#34d399">0 days</text>
     </g>
     <g class="an">
       <g transform="translate(48 278)" stroke="#2dd4bf" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"><rect x="2" y="3.4" width="12" height="10.6" rx="1.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M3 6.2h10M5.6 2.4v2.4M10.4 2.4v2.4"/></g>
@@ -67,7 +67,7 @@
     <circle r="66" fill="none" stroke="#1c3b35" stroke-width="9"/>
     <circle class="arc" r="66" fill="none" stroke="url(#s-ring)" stroke-width="9"
             stroke-linecap="round" transform="rotate(-90)"/>
-    <text class="f rp" y="6" text-anchor="middle">18%</text>
+    <text class="f rp" y="6" text-anchor="middle">17%</text>
     <text class="f rl" y="30" text-anchor="middle">ACTIVE DAYS</text>
   </g>
 </svg>
